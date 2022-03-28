@@ -3,9 +3,15 @@
     <h1>Praktika</h1>
   </div>
   <ul>
-    <li><Blogi name="Siin on esimene postitus" alltekst="mingitekst 111" /></li>
-    <li><Blogi name="Siin on teine postitus" alltekst="mingitekst 222" /></li>
-    <li><Blogi name="Siin on kolmas postitus" alltekst="mingitekst 333" /></li>
+    <li><Blogi name="Rasmus in Toulouse, France" alltekst="I spent 3 months in 2 different hospitals 
+    as a physical therapy intern. During the first internship I worked mostly with outpatients. 
+    There the patients had mainly different..." /></li>
+    <li><Blogi name="Liis in Barcelona, Spain" alltekst="I was a Vendor Management intern, 
+    so I was in contact with freelance translators who wanted to provide services to our company: 
+    testing, training, database updating..." /></li>
+    <li><Blogi name="Kai in Copenhagen, Denmark" alltekst="I was part of the Statistics 
+    and Data Analysis group at my organisation and the analysis I did was part of a continuous 
+    monitoring of social inequality in..." /></li>
 </ul>
 </template>
 
@@ -17,6 +23,7 @@ export default {
   components: {
       Blogi
   }
+  
 }
 </script>
 
@@ -28,9 +35,9 @@ export default {
   margin-top: 0px;
 }
 
-li {
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 30px;
+ul {
+  list-style-type: none;
+  display: flex;
 }
+
 </style>

@@ -6,9 +6,7 @@
       <router-link to="/Oppimine">Õppimine</router-link>
       <router-link to="/Tootamine">Töötamine</router-link>
       <router-link to="/Voimalused">Veel võimalusi</router-link>
-      <button>
-      Jaga kogemust
-      </button>
+      <router-link to="/Kogemus">Jaga oma kogemust</router-link>
       <hr>
     </nav>
     <router-view/>
@@ -34,22 +32,6 @@ nav a {
 nav a:hover, .router-link-active {
     font-weight: bold;
     color: #ef9723
-}
-
-nav button {
-  color: white;
-  background-color: #ef9723;
-  border: 2px solid black;
-  border-radius: 5px;
-  padding: 10px 14px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-nav button:hover {
-  background-color: white;
-  color: black;
-  cursor: pointer;
 }
 
 </style>

@@ -72,9 +72,4 @@ export default {
   padding: 30px;
 }
 
-.pildid:hover {
-  filter: blur(3px);
-}
-
-
 </style>

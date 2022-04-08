@@ -1,20 +1,11 @@
 <template>
 <div class="img">
     <img class="valencia" alt="valencia" src="../assets/valencia.jpg">
-    <div class="tekst">Tahad minna välismaale õppima,<br> töötama või praktikale, 
+    <div class="tekst"><h1>MINGI PEALKIRI</h1>
+    Tahad minna välismaale õppima,<br> töötama või praktikale, 
       <br>kuid ei tea, millest alustada?<br>
-      Loe teiste kogemusi <a href="#">SIIT!</a>
+      Loe teiste kogemusi <a href="../Praktika">SIIT!</a>
     </div>
-</div>
-<hr>
-  <div class="pilditekst">
-    <h1>Pildid</h1>
-  </div>
-<hr>
-
-<div class="madrid">
-    <img class="pildid" alt="c1" src="../assets/c1.jpg">
-    <img class="pildid" alt="c2" src="../assets/c2.jpg">
 </div>
 
 </template>
@@ -29,6 +20,7 @@ export default {
     Header
   }
 }
+
 </script>
 
 <style scoped>
@@ -36,7 +28,7 @@ export default {
   width: 100%;
   height: 600px;
   object-fit: cover;
-  opacity: 40%;
+  opacity: 30%;
 }
 .img {
   background-color: black;
@@ -45,19 +37,19 @@ export default {
 }
 .tekst {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ffebd4;
+  color: white;
   font-size: 40px;
 }
 
 .tekst a {
-  color: #ffebd4;
+  color: white;
 }
 
 .tekst a:hover {
-  color: #ef9273;
+  color: #66fcf1;
 }
 
 .pilditekst h1 {
@@ -70,6 +62,11 @@ export default {
 .pildid {
   width: 500px;
   padding: 30px;
+}
+
+h1 {
+  font-size: 60px;
+  color: #66fcf1;
 }
 
 </style>

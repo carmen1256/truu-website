@@ -14,7 +14,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
 #app {
   background-color: #ffebd4;
   text-align: center;

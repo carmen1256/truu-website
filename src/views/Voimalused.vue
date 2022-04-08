@@ -4,9 +4,25 @@
   </div>
 <div class="lingid">
 <ul>
-    <li>Seiklejate vennaskond</li>
-    <li>Erasmus+</li>
-    <li>Workaway</li>
+    <h2>Projektid</h2>
+    <p>- Erasmus+ projektid kestavad 7-10 päeva</p>
+    <p>- Projektidel on erinevad teemad</p>
+    <p>- Projektidel osalevad erinevate riikide tiimid (5-10 inimest igas tiimis)</p>
+    <p>- Võimalus olla oma riigi grupijuht</p>
+    <li><a href="http://www.seiklejad.org/noorele">Seiklejate vennaskond</a></li>
+    <li><a href="https://www.facebook.com/YouthSenateTallinn/">Youth Senate Tallinn</a></li>
+
+    <h2>Töötamine</h2>
+    <p>- Workaway kaudu on võimalik leida "host", kelle juures elada ja töötada</p>
+    <li><a href="https://www.workaway.info/">Workaway</a></li>
+
+    <h2>Lennupiletid</h2>
+    <p>- Odavate piletite leidmiseks pane kuupäevad ja otsi asukohta "Everywhere"</p>
+    <p>- Odavate piletete leidmiseks vali ajavahemikuks terve kuu või mitu kuud</p>
+    <li><a href="https://www.skyscanner.net/">Skyscanner</a></li>
+    <li><a href="https://www.momondo.ee/">Momondo</a></li>
+    <li><a href="https://www.kiwi.com/">Kiwi</a></li>
+
 </ul>
 </div>
 </template>
@@ -15,13 +31,41 @@
 .voimalused h1 {
   font-size: 40px;
   text-align: left;
-  margin-left: 30px;
-  margin-top: 0px;
+  margin-left: 60px;
+  margin-top: 30px;
+  color: white;
 }
 
-.lingid ul{
-    text-align: left;
-    font-size: 20px;
-    list-style-type: none;
+h2 {
+  font-size: 25px;
+  color: white;
+  text-decoration: underline;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+p {
+  color: white;
+  margin: 5px;
+  margin-left: 30px;
+}
+
+li {
+  color: white;
+  margin: 20px;
+  font-size: 20px;
+  margin-left: 10px;
+  list-style: none;
+}
+
+a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #66fcf1;
 }
 </style>

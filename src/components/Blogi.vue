@@ -1,7 +1,6 @@
 <template>
 <div class="blog_comp">
     <a href="https://uttraineeshipblog.com/rasmus-in-toulouse-france/">
-    <img class="blogi1" alt="blogi1" src= "../assets/toulouse.jpg">
     <h1>{{ name }}</h1>
     <p>{{ alltekst }}</p>
     </a>
@@ -17,19 +16,14 @@ export default {
 </script>
 
 <style scoped>
-    .blog_comp img {
-        width: 350px;
-        height: auto;
-        margin: 20px;
-    }
 
     a {
-        color: black;
+        color: white;
         text-decoration: none;
     }
 
     a:hover {
-        color: #ef9723;
+        color:#66fcf1;
     }
 
     p {

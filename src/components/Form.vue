@@ -5,6 +5,7 @@
     <option disabled value="-"></option>
         <option>Praktika</option>
         <option>Õppimine</option>
+        <option>Töötamine</option>
         <option>Muu</option>
     </select><br><br>
     <textarea v-model="kogemus" placeholder="Kirjuta oma kogemusest"></textarea>
@@ -21,9 +22,24 @@ export default {
     textarea {
         width: 500px;
         height: 250px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
     }
 
     select {
         width: 170px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    input {
+        margin: 5px;
+    }
+
+    select {
+        margin: 5px;
+    }
+
+    textarea {
+        margin: 5px;
     }
 </style>

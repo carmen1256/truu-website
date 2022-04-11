@@ -8,6 +8,7 @@
       <router-link to="/Kogemus">Jaga oma kogemust</router-link>
       <hr>
     </nav>
+    <router-view/>
 </template>
 
 <script>

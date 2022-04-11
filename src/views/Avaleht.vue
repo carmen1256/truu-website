@@ -1,7 +1,7 @@
 <template>
 <div class="img">
     <img class="valencia" alt="valencia" src="../assets/valencia.jpg">
-    <div class="tekst"><h1>MINGI PEALKIRI</h1>
+    <div class="tekst"><h1>REISI, ÕPI, TÖÖTA!</h1>
     Tahad minna välismaale õppima,<br> töötama või praktikale, 
       <br>kuid ei tea, millest alustada?<br>
       Loe teiste kogemusi <a href="../Praktika">SIIT!</a>
@@ -35,14 +35,6 @@ export default {
   position: relative;
   text-align: center;
 }
-.tekst {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 40px;
-}
 
 .tekst a {
   color: white;
@@ -67,6 +59,38 @@ export default {
 h1 {
   font-size: 60px;
   color: #66fcf1;
+}
+
+@media screen and (min-width: 400px) {
+  h1 {
+  font-size: 40px;
+  color: #66fcf1;
+}
+
+.tekst {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+}
+
+}
+
+@media screen and (min-width: 600px) {
+  
+}
+
+@media screen and (min-width: 900px) {
+  .tekst {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+}
 }
 
 </style>

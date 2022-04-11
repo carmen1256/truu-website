@@ -5,27 +5,54 @@
 <div class="lingid">
 <ul>
     <h2>Projektid</h2>
+    <li><img class="sv" src="../assets/sv.jpg"></li>
+    <li><a href="http://www.seiklejad.org/noorele">Seiklejate vennaskond</a></li>
+    <li><img class="sv" src="../assets/yst.jpg"></li>
+    <li><a href="https://www.facebook.com/YouthSenateTallinn/">Youth Senate Tallinn</a></li>
+    <div class="p">
     <p>- Erasmus+ projektid kestavad 7-10 päeva</p>
     <p>- Projektidel on erinevad teemad</p>
     <p>- Projektidel osalevad erinevate riikide tiimid (5-10 inimest igas tiimis)</p>
     <p>- Võimalus olla oma riigi grupijuht</p>
-    <li><a href="http://www.seiklejad.org/noorele">Seiklejate vennaskond</a></li>
-    <li><a href="https://www.facebook.com/YouthSenateTallinn/">Youth Senate Tallinn</a></li>
+    </div>
+</ul>
 
+<ul>
     <h2>Töötamine</h2>
-    <p>- Workaway kaudu on võimalik leida "host", kelle juures elada ja töötada</p>
+    <li><img class="sv" src="../assets/worka.png"></li>
     <li><a href="https://www.workaway.info/">Workaway</a></li>
+    <div class="p">
+    <p>- Workaway kaudu on võimalik leida "host", kelle juures elada ja töötada</p>
+    </div>
+</ul>
 
+<ul>
     <h2>Lennupiletid</h2>
+    <li><img class="sv" src="../assets/sky.jpg"></li>
+    <li><a href="https://www.skyscanner.net/">Skyscanner</a></li>
+    <li><img class="sv" src="../assets/momo.png"></li>
+    <li><a href="https://www.momondo.ee/">Momondo</a></li>
+    <li><img class="sv" src="../assets/kiwi.jpg"></li>
+    <li><a href="https://www.kiwi.com/">Kiwi</a></li>
+    <div class="p">
     <p>- Odavate piletite leidmiseks pane kuupäevad ja otsi asukohta "Everywhere"</p>
     <p>- Odavate piletete leidmiseks vali ajavahemikuks terve kuu või mitu kuud</p>
-    <li><a href="https://www.skyscanner.net/">Skyscanner</a></li>
-    <li><a href="https://www.momondo.ee/">Momondo</a></li>
-    <li><a href="https://www.kiwi.com/">Kiwi</a></li>
-
+    </div>
 </ul>
 </div>
 </template>
+
+<script>
+import Blogi from '@/components/Blogi.vue'
+
+export default {
+  name: 'Praktika',
+  components: {
+      Blogi
+  }
+  
+}
+</script>
 
 <style scoped>
 .voimalused h1 {
@@ -41,15 +68,17 @@ h2 {
   color: white;
   text-decoration: underline;
   margin-top: 40px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   margin-left: 20px;
 }
 
-p {
+.p {
   color: white;
   margin: 5px;
   margin-left: 30px;
+  margin-top: 50px;
 }
+
 
 li {
   color: white;
@@ -57,6 +86,7 @@ li {
   font-size: 20px;
   margin-left: 10px;
   list-style: none;
+  display: inline;
 }
 
 a {
@@ -67,5 +97,10 @@ a {
 
 a:hover {
   color: #66fcf1;
+}
+
+.sv {
+  width: 150px;
+  height: auto;
 }
 </style>

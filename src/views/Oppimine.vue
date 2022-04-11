@@ -5,7 +5,6 @@
   </div>
     <ul>
     <h3>Belgia</h3>
-    <li><img src="../assets/leuvenlogo.jpg"></li>
     <li><a href="https://www.kuleuven.be/english/kuleuven/">Belgia, Leuveni Ülikool</a></li>
 
     <h3>Hispaania</h3>

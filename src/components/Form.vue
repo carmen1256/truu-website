@@ -5,7 +5,6 @@
     <option disabled value="-"></option>
         <option>Praktika</option>
         <option>Õppimine</option>
-        <option>Töötamine</option>
         <option>Muu</option>
     </select><br><br>
     <textarea v-model="kogemus" placeholder="Kirjuta oma kogemusest"></textarea>
@@ -39,7 +38,5 @@ export default {
         margin: 5px;
     }
 
-    textarea {
-        margin: 5px;
-    }
+
 </style>

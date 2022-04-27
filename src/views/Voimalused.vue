@@ -5,9 +5,7 @@
 <div class="lingid">
 <ul>
     <h2>Projektid</h2>
-    <li><img class="sv" src="../assets/sv.jpg"></li>
     <li><a href="http://www.seiklejad.org/noorele">Seiklejate vennaskond</a></li>
-    <li><img class="sv" src="../assets/yst.jpg"></li>
     <li><a href="https://www.facebook.com/YouthSenateTallinn/">Youth Senate Tallinn</a></li>
     <div class="p">
     <p>- Erasmus+ projektid kestavad 7-10 päeva</p>
@@ -19,7 +17,6 @@
 
 <ul>
     <h2>Töötamine</h2>
-    <li><img class="sv" src="../assets/worka.png"></li>
     <li><a href="https://www.workaway.info/">Workaway</a></li>
     <div class="p">
     <p>- Workaway kaudu on võimalik leida "host", kelle juures elada ja töötada</p>
@@ -28,11 +25,8 @@
 
 <ul>
     <h2>Lennupiletid</h2>
-    <li><img class="sv" src="../assets/sky.jpg"></li>
     <li><a href="https://www.skyscanner.net/">Skyscanner</a></li>
-    <li><img class="sv" src="../assets/momo.png"></li>
     <li><a href="https://www.momondo.ee/">Momondo</a></li>
-    <li><img class="sv" src="../assets/kiwi.jpg"></li>
     <li><a href="https://www.kiwi.com/">Kiwi</a></li>
     <div class="p">
     <p>- Odavate piletite leidmiseks pane kuupäevad ja otsi asukohta "Everywhere"</p>

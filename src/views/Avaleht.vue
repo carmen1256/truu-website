@@ -60,13 +60,6 @@ export default {
   color: #66fcf1;
 }
 
-.pilditekst h1 {
-  font-size: 40px;
-  text-align: center;
-  margin-left: 30px;
-  margin-top: 0px;
-}
-
 h1 {
   font-size: 60px;
   color: #66fcf1;
@@ -116,7 +109,7 @@ h2 {
 @media screen and (min-width: 900px) {
   .tekst {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;

@@ -1,5 +1,5 @@
 <template>
-    <p>© Made by Carmen</p>
+    <p>© Koostaja: Carmen-Ly Truu</p>
 </template>
 
 <script>

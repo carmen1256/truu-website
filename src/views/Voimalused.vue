@@ -70,7 +70,7 @@ h2 {
   color: white;
   margin: 5px;
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 
@@ -87,6 +87,7 @@ a {
   color: white;
   margin: 20px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 a:hover {
@@ -96,5 +97,12 @@ a:hover {
 .sv {
   width: 150px;
   height: auto;
+}
+
+@media screen and (min-width: 400px) {
+li {
+  display: inline-block;
+}
+
 }
 </style>

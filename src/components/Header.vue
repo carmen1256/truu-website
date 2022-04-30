@@ -19,6 +19,13 @@ export default {
 
 <style scoped>
 
+@media screen and (min-width: 400px) {
+  nav a{
+    display: block;
+    padding: 5px 10px;
+  }
+}
+
 nav a {
     font-family: Arial, Helvetica, sans-serif;
     float: center;
@@ -39,6 +46,12 @@ nav a:hover, .router-link-active {
 
 hr {
   border: 1px black;
+}
+
+@media screen and (min-width: 900px) {
+  nav a {
+    display: inline;
+  }
 }
 
 

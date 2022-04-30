@@ -5,7 +5,7 @@
       <router-link to="/Praktika">Praktika</router-link>
       <router-link to="/Oppimine">Õppimine</router-link>
       <router-link to="/Voimalused">Veel võimalusi</router-link>
-      <router-link to="/Kogemus">Jaga oma kogemust</router-link>
+      <router-link to="/Kogemus">Kandideerimine</router-link>
       <hr>
     </nav>
     <router-view/>

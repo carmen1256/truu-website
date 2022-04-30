@@ -1,5 +1,6 @@
 <template>
 <div class="img">
+    <!--Avalehel pilt ja tekst pildil, teksti sees on link 'SIIT'-->
     <img class="valencia" alt="valencia" src="../assets/valencia.jpg">
     <div class="tekst"><h1>REISI, ÕPI, TÖÖTA!</h1>
     Tahad minna välismaale õppima,<br> töötama või praktikale, 
@@ -8,10 +9,24 @@
     </div>
 </div>
 
+<h2>Pildid</h2>
+
+<div class="pildid">
+  <div class="pilt">
+  <img class="pilt" alt="pilt" src="../assets/c1.jpg">
+  </div>
+  <div class="pilt">
+  <img class="pilt" alt="pilt" src="../assets/c2.jpg">
+  </div>
+  <div class="pilt">
+  <img class="pilt" alt="pilt" src="../assets/c3.jpg">
+  </div>
+</div>
+
 </template>
 
+<!--Päise importimine-->
 <script>
-// @ is an alias to /src
 import Header from '@/components/Header.vue'
 
 export default {
@@ -23,6 +38,7 @@ export default {
 
 </script>
 
+<!--Pildi ja teksti kujundus erineva ekraani suuruse korral-->
 <style scoped>
 .valencia {
   width: 100%;
@@ -51,15 +67,29 @@ export default {
   margin-top: 0px;
 }
 
-.pildid {
-  width: 500px;
-  padding: 30px;
-}
-
 h1 {
   font-size: 60px;
   color: #66fcf1;
 }
+
+h2 {
+  font-size: 40px;
+  color: white;
+  margin-left: 20px;
+}
+
+.pilt {
+  width: 400px;
+  height: auto;
+  padding-left: 5px;
+  padding-right: 8px;
+}
+
+.pilt:hover {
+  filter: saturate(1.15)
+  brightness(1.1)
+}
+
 
 @media screen and (min-width: 400px) {
   h1 {
@@ -79,6 +109,7 @@ h1 {
 }
 
 @media screen and (min-width: 600px) {
+
   
 }
 
@@ -90,6 +121,10 @@ h1 {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 40px;
+}
+
+.pildid {
+  display: flex;
 }
 }
 

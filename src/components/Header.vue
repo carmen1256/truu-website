@@ -23,6 +23,10 @@ export default {
   nav a{
     display: block;
     padding: 5px 10px;
+    height:20px;
+  }
+  router-link {
+    height:20px;
   }
 }
 

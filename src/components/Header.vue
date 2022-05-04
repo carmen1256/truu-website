@@ -20,11 +20,6 @@ export default {
 <style scoped>
 
 @media screen and (min-width: 400px) {
-  nav a{
-    display: block;
-    padding: 5px 10px;
-    height:20px;
-  }
   router-link {
     height:20px;
   }
@@ -32,11 +27,12 @@ export default {
 
 nav a {
     font-family: Arial, Helvetica, sans-serif;
-    float: center;
-    padding: 70px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    display: block;
+    padding: 5px 10px;
+    height: 20px;
 }
 
 nav a:hover, .router-link-active {

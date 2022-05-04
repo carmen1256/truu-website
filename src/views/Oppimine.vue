@@ -129,6 +129,7 @@ a:hover {
   display: inline-block;
   margin-left: 20px;
   margin-right: 120px;
+  vertical-align: top;
 }
 
 .riik {

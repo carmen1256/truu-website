@@ -66,21 +66,22 @@ h1 {
 }
 
 h2 {
+  display: flex;
   font-size: 40px;
   color: white;
-  margin-left: 20px;
+  justify-content: center;
 }
 
 .pilt {
   width: 400px;
   height: auto;
-  padding-left: 5px;
-  padding-right: 8px;
+  padding: 5px;
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
 .pilt:hover {
-  filter: saturate(1.15)
-  brightness(1.1)
+  filter: saturate(1.15) brightness(1.1);
 }
 
 
@@ -117,7 +118,7 @@ h2 {
 }
 
 .pildid {
-  display: flex;
+  justify-content: center;
 }
 }
 

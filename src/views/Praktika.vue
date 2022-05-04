@@ -64,19 +64,22 @@ export default {
 
 <style scoped>
 .praktika h1 {
+  padding-left: 60px;
   font-size: 40px;
   text-align: left;
-  margin-left: 60px;
-  margin-top: 30px;
   color: white;
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+  justify-content: center;
+  padding-left: 0px;
 }
 
 li {
-  margin: 20px;
+  padding: 20px;
+  justify-content: center;
 }
 
 img {

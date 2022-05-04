@@ -71,7 +71,6 @@ export default {
 }
 
 ul {
-  display: flex;
   list-style-type: none;
   justify-content: center;
   padding-left: 0px;

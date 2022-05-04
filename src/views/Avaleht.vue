@@ -5,7 +5,7 @@
     <div class="tekst"><h1>REISI, ÕPI, TÖÖTA!</h1>
     Tahad minna välismaale õppima,<br> töötama või praktikale, 
       <br>kuid ei tea, millest alustada?<br>
-      Loe teiste kogemusi <a href="https://reisivoimalused.netlify.app/Praktika">SIIT!</a>
+      Loe teiste kogemusi <a href="../Praktika">SIIT!</a>
     </div>
 </div>
 

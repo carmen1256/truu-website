@@ -1,10 +1,10 @@
 <template>
   <div class="voimalused">
-    <h1>Kasulikud lingid</h1>
+    <h1>Kuhu reisida?</h1>
   </div>
 <div class="lingid">
 <ul>
-    <h2>Projektid</h2>
+    <h2>Erasmus+ projektid</h2>
     <li><a href="http://www.seiklejad.org/noorele">Seiklejate vennaskond</a></li>
     <li><a href="https://www.facebook.com/YouthSenateTallinn/">Youth Senate Tallinn</a></li>
     <div class="p">
@@ -16,7 +16,7 @@
 </ul>
 
 <ul>
-    <h2>Töötamine</h2>
+    <h2>Välismaale tööle</h2>
     <li><a href="https://www.workaway.info/">Workaway</a></li>
     <div class="p">
     <p>- Workaway kaudu on võimalik leida "host", kelle juures elada ja töötada</p>
@@ -24,7 +24,7 @@
 </ul>
 
 <ul>
-    <h2>Lennupiletid</h2>
+    <h2>Odavad lennupiletid</h2>
     <li><a href="https://www.skyscanner.net/">Skyscanner</a></li>
     <li><a href="https://www.momondo.ee/">Momondo</a></li>
     <li><a href="https://www.kiwi.com/">Kiwi</a></li>

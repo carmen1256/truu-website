@@ -9,7 +9,6 @@
     </div>
 </div>
 
-<h2>Pildid</h2>
 
 <div class="pildid">
   <div class="pilt">
@@ -41,10 +40,10 @@ export default {
 <!--Pildi ja teksti kujundus erineva ekraani suuruse korral-->
 <style scoped>
 .valencia {
+  opacity: 30%;
   width: 100%;
   height: 600px;
   object-fit: cover;
-  opacity: 30%;
 }
 .img {
   background-color: black;
@@ -65,19 +64,13 @@ h1 {
   color: #66fcf1;
 }
 
-h2 {
-  display: flex;
-  font-size: 40px;
-  color: white;
-  justify-content: center;
-}
-
 .pilt {
   width: 400px;
   height: auto;
   padding: 5px;
   display: inline-block;
   padding-bottom: 5px;
+  padding-top: 20px;
 }
 
 .pilt:hover {

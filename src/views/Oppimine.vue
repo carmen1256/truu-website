@@ -89,7 +89,7 @@
 h1 {
   font-size: 40px;
   text-align: left;
-  margin-left: 60px;
+  margin-left: 30px;
   margin-top: 30px;
   color: white;
 }
@@ -97,7 +97,7 @@ h1 {
 h2 {
   font-size: 25px;
   text-align: left;
-  margin-left: 60px;
+  margin-left: 30px;
   margin-top: 40px;
   color: white;
 }
@@ -127,7 +127,6 @@ a:hover {
 
 .row {
   display: inline-block;
-  margin-left: 20px;
   margin-right: 120px;
   vertical-align: top;
 }

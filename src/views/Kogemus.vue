@@ -1,5 +1,4 @@
 <template>
-
 <h1>Kuidas kandideerida?</h1>
 <ul>
   <li>
@@ -17,11 +16,20 @@
     <img class="europe" alt="europe" src="../assets/europe.png">
   </li>
 </ul>
+<hr>
 
+<Form />
 </template>
 
 <script>
+import Form from '@/components/Form.vue'
 
+export default {
+  name: 'Kogemus',
+  components: {
+    Form
+  }
+}
 </script>
 
 <style scoped>
@@ -53,6 +61,10 @@ li {
 h3 {
   color: white;
   font-size: 20px;
+}
+
+hr {
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 400px) {

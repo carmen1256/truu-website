@@ -30,7 +30,7 @@ export default {
         response.data.forEach((post) => {
           let blogpost = {}
           blogpost.name = post.title.rendered
-          blogpost.alltekst = post.excerpt.rendered
+          blogpost.alltekst = this.decode_html(post.excerpt.rendered).replace("Continued", "")
           blogpost.link = post.link
           this.blogid.push(blogpost)
         })
@@ -44,6 +44,11 @@ export default {
       } catch {
         return require('../assets/UT.png')
       }
+    },
+    decode_html: function(html) {
+      let txt = document.createElement("textarea");
+      txt.innerHTML = html;
+      return txt.value.replace(/<[^>]*>/g, "");
     }
   }
 }
@@ -51,7 +56,7 @@ export default {
 
 <style scoped>
 .praktika h1 {
-  padding-left: 60px;
+  padding-left: 30px;
   font-size: 40px;
   text-align: left;
   color: white;

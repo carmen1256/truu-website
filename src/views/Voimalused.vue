@@ -52,7 +52,7 @@ export default {
 .voimalused h1 {
   font-size: 40px;
   text-align: left;
-  margin-left: 60px;
+  margin-left: 30px;
   margin-top: 30px;
   color: white;
 }
@@ -63,13 +63,11 @@ h2 {
   text-decoration: underline;
   margin-top: 40px;
   margin-bottom: 20px;
-  margin-left: 20px;
 }
 
 .p {
   color: white;
   margin: 5px;
-  margin-left: 30px;
   margin-top: 20px;
 }
 
@@ -85,7 +83,6 @@ li {
 
 a {
   color: white;
-  margin: 20px;
   text-decoration: none;
   text-transform: uppercase;
 }

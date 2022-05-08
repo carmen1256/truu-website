@@ -78,9 +78,9 @@ h1 {
 }
 
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 200px) {
   h1 {
-  font-size: 40px;
+  font-size: 30px;
   color: #66fcf1;
 }
 
@@ -90,13 +90,29 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 30px;
+  font-size: 25px;
+}
+
+.pilt {
+  width: 350px;
+  height: auto;
+  padding: 5px;
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-top: 20px;
 }
 
 }
 
 @media screen and (min-width: 600px) {
-
+.pilt {
+  width: 400px;
+  height: auto;
+  padding: 5px;
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-top: 20px;
+}
   
 }
 
@@ -111,8 +127,10 @@ h1 {
 }
 
 .pildid {
-  justify-content: center;
+  display: flex;
+  justify-content: space-evenly;
 }
+
 }
 
 </style>

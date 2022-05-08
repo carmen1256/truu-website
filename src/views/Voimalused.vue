@@ -105,7 +105,7 @@ hr {
   margin-top: 30px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 200px) {
 li {
   display: inline-block;
 }

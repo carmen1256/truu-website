@@ -55,14 +55,14 @@ h3 {
   font-size: 20px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 200px) {
   ul {
   list-style: none;
 }
 
 .europe {
   margin-top: 40px;
-  width: 400px;
+  width: 300px;
   height: auto;
 }
 

@@ -4,6 +4,7 @@
     <h2>Tartu Ülikooli partnerülikoolid</h2>
   </div>
     <ul>
+    <div class="rida">
     <div class="row">
     <h3>BELGIA</h3>
     <img class="riik" alt="reisimine" src="../assets/belgia1.jpg">
@@ -77,6 +78,7 @@
     <img class="riik" alt="reisimine" src="../assets/portugal.jpg">
     <li><a href="https://www.ulisboa.pt/en">Portugal, Lissaboni Ülikool</a></li>
     </div>
+    </div>
 </ul>
 </template>
 
@@ -134,6 +136,19 @@ a:hover {
 .riik {
   width: 450px;
   height: 300px;
+}
+
+@media screen and (min-width: 200px) {
+.riik {
+  width: 300px;
+  height: 170px;
+}
+}
+
+@media screen and (min-width: 900px) {
+.rida {
+  
+}
 }
 
 </style>

@@ -107,4 +107,46 @@ button:hover {
     border: 1px solid grey;
     border-radius: 2px;
 }
+
+@media screen and (min-width: 200px) {
+#title {
+    width: 80%;
+    height: 20px;
+}
+
+#ptext {
+    width: 80%;
+    height: 200px;
+}
+#submit {
+    margin-right: 30px;
+    width: 70px;
+    height: 30px;
+    margin-bottom: 40px;
+}
+}
+
+@media screen and (min-width: 600px) {
+#title {
+    width: 50%;
+    height: 20px;
+}
+
+#ptext {
+    width: 50%;
+    height: 200px;
+}
+}
+
+@media screen and (min-width: 900px) {
+#title {
+    width: 50%;
+    height: 20px;
+}
+
+#ptext {
+    width: 50%;
+    height: 200px;
+}
+}
 </style>

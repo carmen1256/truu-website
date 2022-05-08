@@ -1,42 +1,44 @@
-<!-- <input type="text" id="fname" name="fname" v-model="fname"><br> -->
+<!-- <input type="text" id="title" name="title" v-model="title"><br> -->
 <!-- <input type="submit" value="INSERT" v-on:click="click_post"> -->
 
 <template>
   <div>
     <h3>Jaga oma kogemust</h3>
-    <label for="fname">Pealkiri:</label><br>
-    <input type="text" id="fname" name="fname" v-model="fname"><br>
-    <label for="lname">Postituse tekst:</label><br>
-    <input type="text" id="lname" name="lname" v-model="lname"><br><br>
-    <input type="submit" value="SISESTA" v-on:click="click_post">
-    <input type="submit" value="UUENDA" v-on:click="click_get">
+    <label for="title">Pealkiri:</label><br>
+    <input type="text" id="title" name="title" v-model="title"><br>
+    <label for="ptext">Postituse tekst:</label><br>
+    <input type="text" id="ptext" name="ptext" v-model="ptext"><br><br>
+    <button type="submit" id="submit" v-on:click="click_post">SISESTA</button>
+    <button @click="reset_input" type="submit" id="submit" v-on:click="click_get">UUENDA</button>
     <ul>
-      <li v-for="user in users" v-bind:key="user"> {{user.firstname}} {{user.lastname}}</li>
+      <li v-for="postitus in postitused" v-bind:key="postitus"> 
+          <h2>{{postitus.posttitle}}</h2> {{postitus.posttext}}</li>
     </ul>
   </div>
 </template>
 
 <script>
+
 export default {
   data() {
     return {
-      fname: '',
-      lname: '',
-      users: []
+      title: '',
+      ptext: '',
+      postitused: []
     }
   },
   methods: {
     click_post() {
-      fetch('https://truu-website-default-rtdb.europe-west1.firebasedatabase.app/', {
+      fetch('https://truu-website-default-rtdb.europe-west1.firebasedatabase.app/test.json', {
         method: 'POST',
         body: JSON.stringify({
-          firstname: this.fname,
-          lastname: this.lname
+          posttitle: this.title,
+          posttext: this.ptext
         })
       });
     },
     click_get() {
-      fetch('https://truu-website-default-rtdb.europe-west1.firebasedatabase.app/').then((response) => {
+      fetch('https://truu-website-default-rtdb.europe-west1.firebasedatabase.app/test.json').then((response) => {
         if (response.ok){
           return response.json();
         }
@@ -46,13 +48,17 @@ export default {
             for (const id in data) {
               results.push({
                 id: id,
-                firstname: data[id]['firstname'],
-                lastname: data[id]['lastname']
+                posttitle: data[id]['posttitle'],
+                posttext: data[id]['posttext']
               });
 
             }
-            this.users = results;
+            this.postitused = results;
           });
+    },
+    reset_input() {
+        this.title = '';
+        this.ptext = '';
     }
   }
 };
@@ -73,13 +79,32 @@ input {
     margin-bottom: 30px;
 }
 
-#fname {
+#title {
     width: 50%;
     height: 20px;
 }
 
-#lname {
+#ptext {
     width: 50%;
     height: 200px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 70px;
+}
+
+#submit {
+    margin-right: 30px;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+button:hover {
+    background-color: #66fcf1;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 2px;
 }
 </style>

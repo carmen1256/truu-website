@@ -34,15 +34,20 @@
     </div>
 </ul>
 </div>
+<hr>
+
+<Form />
 </template>
 
 <script>
 import Blogi from '@/components/Blogi.vue'
+import Form from '@/components/Form.vue'
+
 
 export default {
   name: 'Praktika',
   components: {
-      Blogi
+      Blogi, Form
   }
   
 }
@@ -94,6 +99,10 @@ a:hover {
 .sv {
   width: 150px;
   height: auto;
+}
+
+hr {
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 400px) {

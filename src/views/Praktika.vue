@@ -59,6 +59,9 @@ export default {
 <style scoped>
 body {
   font-family: "OpenSans";
+  margin: 40px;
+  margin-left: 60px;
+  margin-right: 5px;
 }
 
 .praktika h1 {
@@ -70,7 +73,6 @@ body {
 
 ul {
   list-style-type: none;
-  justify-content: center;
   padding-left: 0px;
   columns: 3;
 }
@@ -84,7 +86,7 @@ img {
 li {
   padding: 20px;
   height: 500px;
-  justify-content: center;
+  justify-content: space-evenly;
   break-inside: avoid-column;
 }
 

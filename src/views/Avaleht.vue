@@ -45,7 +45,7 @@ body {
 }
 
 .valencia {
-  opacity: 30%;
+  opacity: 0.3;
   width: 100%;
   height: 600px;
   object-fit: cover;

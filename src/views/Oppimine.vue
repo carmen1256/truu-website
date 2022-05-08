@@ -1,4 +1,5 @@
 <template>
+<body>
   <div class="oppimine">
     <h1>Õppimine</h1>
     <h2>Tartu Ülikooli partnerülikoolid</h2>
@@ -78,6 +79,7 @@
     <li><a href="https://www.ulisboa.pt/en">Portugal, Lissaboni Ülikool</a></li>
     </div>
 </ul>
+</body>
 </template>
 
 <script>
@@ -86,8 +88,12 @@
 
 
 <style scoped>
+body {
+  font-family: "OpenSans";
+}
+
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   text-align: left;
   margin-left: 30px;
   margin-top: 30px;
@@ -95,7 +101,7 @@ h1 {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 20px;
   text-align: left;
   margin-left: 30px;
   margin-top: 40px;

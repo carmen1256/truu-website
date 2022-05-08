@@ -20,11 +20,12 @@ export default {
 
 p {
     width: 350px;
-    font-size: 15px;
+    font-size: 13px;
+    text-align: justify;
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 img {

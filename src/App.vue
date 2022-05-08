@@ -27,4 +27,11 @@ export default {
 #nav {
   padding: 30px;
 }
+
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"),
+   url(./fonts/OpenSans.ttf) format("truetype");
+}
+
 </style>

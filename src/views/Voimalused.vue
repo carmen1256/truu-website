@@ -1,4 +1,5 @@
 <template>
+<body>
   <div class="voimalused">
     <h1>Kuhu reisida?</h1>
   </div>
@@ -37,6 +38,7 @@
 <hr>
 
 <Form />
+</body>
 </template>
 
 <script>
@@ -54,8 +56,12 @@ export default {
 </script>
 
 <style scoped>
+body {
+  font-family: "OpenSans";
+}
+
 .voimalused h1 {
-  font-size: 40px;
+  font-size: 30px;
   text-align: left;
   margin-left: 30px;
   margin-top: 30px;
@@ -63,7 +69,7 @@ export default {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   text-decoration: underline;
   margin-top: 20px;

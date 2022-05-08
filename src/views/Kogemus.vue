@@ -1,4 +1,5 @@
 <template>
+<body>
 <h1>Kuidas kandideerida?</h1>
 <ul>
   <li>
@@ -23,7 +24,7 @@
   </li>
 </ul>
 
-
+</body>
 </template>
 
 <script>
@@ -31,16 +32,20 @@
 </script>
 
 <style scoped>
+body {
+  font-family: "OpenSans";
+}
+
 h1 {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 10px;
   margin-left: 20px;
 }
 
 h2 {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 p, a {
@@ -54,12 +59,12 @@ a:hover {
 }
 
 li {
-  margin-right: 300px;
+  margin-right: 270px;
 }
 
 h3 {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   margin: 20px;
 }
 
@@ -90,7 +95,7 @@ div {
 }
 
 .europe {
-  width: 500px;
+  width: 400px;
   height: auto;
 }
 
@@ -110,7 +115,7 @@ div {
 }
 
 .europe {
-  width: 600px;
+  width: 550px;
   height: auto;
   margin-top: 80px;
 }

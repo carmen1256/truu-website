@@ -1,4 +1,5 @@
 <template>
+<body>
   <div class="praktika">
     <h1>Praktika blogi</h1>
   </div>
@@ -7,6 +8,7 @@
       <Blogi :name="blogi.name" :alltekst="blogi.alltekst" :link="blogi.link" :pilt="load_img(blogi.name)" />
     </li>
   </ul>
+</body>
 </template>
 
 <script>
@@ -55,9 +57,13 @@ export default {
 </script>
 
 <style scoped>
+body {
+  font-family: "OpenSans";
+}
+
 .praktika h1 {
   padding-left: 30px;
-  font-size: 40px;
+  font-size: 30px;
   text-align: left;
   color: white;
 }

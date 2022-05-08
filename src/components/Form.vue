@@ -29,7 +29,7 @@ export default {
   },
   methods: {
     click_post() {
-      fetch('https://truu-website-default-rtdb.europe-west1.firebasedatabase.app/test.json', {
+      fetch('https://truu-website-default-rtdb.europe-west1.firebasedatabase.app/form.json', {
         method: 'POST',
         body: JSON.stringify({
           posttitle: this.title,
@@ -38,7 +38,7 @@ export default {
       });
     },
     click_get() {
-      fetch('https://truu-website-default-rtdb.europe-west1.firebasedatabase.app/test.json').then((response) => {
+      fetch('https://truu-website-default-rtdb.europe-west1.firebasedatabase.app/form.json').then((response) => {
         if (response.ok){
           return response.json();
         }

@@ -1,4 +1,5 @@
 <template>
+<body>
 <div class="img">
     <!--Avalehel pilt ja tekst pildil, teksti sees on link 'SIIT'-->
     <img class="valencia" alt="valencia" src="../assets/valencia.jpg">
@@ -21,7 +22,7 @@
   <img class="pilt" alt="pilt" src="../assets/c3.jpg">
   </div>
 </div>
-
+</body>
 </template>
 
 <!--Päise importimine-->
@@ -39,6 +40,10 @@ export default {
 
 <!--Pildi ja teksti kujundus erineva ekraani suuruse korral-->
 <style scoped>
+body {
+  font-family: "OpenSans";
+}
+
 .valencia {
   opacity: 30%;
   width: 100%;
@@ -56,11 +61,6 @@ export default {
 }
 
 .tekst a:hover {
-  color: #66fcf1;
-}
-
-h1 {
-  font-size: 60px;
   color: #66fcf1;
 }
 
@@ -90,7 +90,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .pilt {
@@ -113,22 +113,36 @@ h1 {
   padding-bottom: 5px;
   padding-top: 20px;
 }
+
+.tekst {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+}
   
 }
 
 @media screen and (min-width: 900px) {
-  .tekst {
+.tekst {
   position: absolute;
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .pildid {
   display: flex;
   justify-content: space-evenly;
+}
+
+ h1 {
+  font-size: 50px;
+  color: #66fcf1;
 }
 
 }

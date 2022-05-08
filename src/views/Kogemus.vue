@@ -3,14 +3,20 @@
 <ul>
   <li>
     <h2>Erasmus+</h2>
+    <div>
     <h3>TÜ tingimused:</h3>
     <a href="https://ut.ee/et/erasmus">https://ut.ee/et/erasmus</a>
+    </div>
+    <div>
     <h3>Seiklejate vennaskond:</h3>
     <p>*Pakkumiste lehel on kandideerimisvormid.</p>
     <a href="http://www.seiklejad.org/noorele">http://www.seiklejad.org/noorele</a>
+    </div>
+    <div>
     <h3>Praktika</h3>
     <p>Loo kasutaja ja kandideeri!</p>
     <a href="https://erasmusintern.org/traineeships">https://erasmusintern.org/traineeships</a>
+    </div>
   </li>
   <li>
     <img class="europe" alt="europe" src="../assets/europe.png">
@@ -39,6 +45,7 @@ h2 {
 
 p, a {
   color: white;
+  margin: 20px;
 }
 
 a:hover {
@@ -53,6 +60,7 @@ li {
 h3 {
   color: white;
   font-size: 20px;
+  margin: 20px;
 }
 
 @media screen and (min-width: 200px) {
@@ -66,6 +74,14 @@ h3 {
   height: auto;
 }
 
+div {
+  border: 5px solid #E0E0E0;
+  background-color: #606060;
+  margin-top: 20px;
+  width: 300px;
+  height: 150px;
+}
+
 }
 
 @media screen and (min-width: 600px) {
@@ -77,6 +93,14 @@ h3 {
   width: 500px;
   height: auto;
 }
+
+div {
+  border: 5px solid #E0E0E0;
+  background-color: #606060;
+  margin-top: 20px;
+  width: 100%;
+  height: 150px;
+}
 }
 
 @media screen and (min-width: 900px) {
@@ -84,10 +108,19 @@ h3 {
   display: flex;
   list-style: none;
 }
+
 .europe {
   width: 600px;
   height: auto;
-  margin-top: 0px;
+  margin-top: 80px;
+}
+
+div {
+  border: 5px solid #E0E0E0;
+  background-color: #606060;
+  margin-top: 20px;
+  width: 150%;
+  height: 150px;
 }
 }
 

@@ -66,7 +66,7 @@ h2 {
   font-size: 25px;
   color: white;
   text-decoration: underline;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -103,6 +103,11 @@ a:hover {
 
 hr {
   margin-top: 30px;
+}
+
+ul {
+    border: 5px solid #E0E0E0;
+    background-color: #606060;
 }
 
 @media screen and (min-width: 200px) {

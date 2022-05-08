@@ -41,7 +41,7 @@
     <div class="row">
     <h3>PRANTSUSMAA</h3>
     <img class="riik" alt="reisimine" src="../assets/france.jpg">
-    <li><a href="https://www.univ-tours.fr/">Prantsusmaa, François Rabelais' Ülikool Tours'is</a></li>
+    <li><a href="https://www.univ-tours.fr/">Prantsusmaa, François Rabelais' Ülikool</a></li>
     <li><a href="https://www.univ-lyon3.fr/welcome-to-jean-moulin-lyon-3-university-1">Prantsusmaa, Jean Moulini Ülikool Lyon 3</a></li>
     </div>
     <div class="row">
@@ -49,6 +49,23 @@
     <img class="riik" alt="reisimine" src="../assets/rootsi.jpg">
     <li><a href="http://www.gu.se/">Rootsi, Göteborgi Ülikool</a></li>
     <li><a href="http://www.uu.se/">Rootsi, Uppsala Ülikool</a></li>
+    </div>
+
+    <div class="row">
+    <h3>PORTUGAL</h3>
+    <img class="riik" alt="reisimine" src="../assets/portugal.jpg">
+    <li><a href="https://www.ulisboa.pt/en">Portugal, Lissaboni Ülikool</a></li>
+    </div>
+    
+    <div class="row">
+    <h3>SOOME</h3>
+    <img class="riik" alt="reisimine" src="../assets/soome.jpg">
+    <li><a href="http://www.taik.fi/en/">Soome, Aalto Ülikool</a></li>
+    <li><a href="http://www.uef.fi/en/etusivu">Soome, Ida-Soome Ülikool</a></li>
+    <li><a href="http://www.jyu.fi/">Soome, Jyväskylä Ülikool</a></li>
+    <li><a href="http://www.uta.fi/">Soome, Tampere Ülikool</a></li>
+    <li><a href="http://www.utu.fi/">Soome, Turu Ülikool</a></li>
+    <li><a href="http://www.oulu.fi/yliopisto/">Soome, Oulu Ülikool</a></li>
     </div>
 
     <div class="row">
@@ -62,22 +79,8 @@
     <li><a href="https://www.uni-luebeck.de/en/university/university.html">Saksamaa, Lübecki Ülikool</a></li>
     <li><a href="http://www.uni-muenster.de/">Saksamaa, Münsteri Ülikool</a></li>
     </div>
-    <div class="row">
-    <h3>SOOME</h3>
-    <img class="riik" alt="reisimine" src="../assets/soome.jpg">
-    <li><a href="http://www.taik.fi/en/">Soome, Aalto Ülikool</a></li>
-    <li><a href="http://www.uef.fi/en/etusivu">Soome, Ida-Soome Ülikool</a></li>
-    <li><a href="http://www.jyu.fi/">Soome, Jyväskylä Ülikool</a></li>
-    <li><a href="http://www.uta.fi/">Soome, Tampere Ülikool</a></li>
-    <li><a href="http://www.utu.fi/">Soome, Turu Ülikool</a></li>
-    <li><a href="http://www.oulu.fi/yliopisto/">Soome, Oulu Ülikool</a></li>
-    </div>
 
-    <div class="row">
-    <h3>PORTUGAL</h3>
-    <img class="riik" alt="reisimine" src="../assets/portugal.jpg">
-    <li><a href="https://www.ulisboa.pt/en">Portugal, Lissaboni Ülikool</a></li>
-    </div>
+    
 </ul>
 </body>
 </template>
@@ -90,6 +93,7 @@
 <style scoped>
 body {
   font-family: "OpenSans";
+  margin: 30px;
 }
 
 h1 {
@@ -118,7 +122,7 @@ h3 {
 li {
   color: white;
   margin: 30px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 a {
@@ -133,36 +137,14 @@ a:hover {
 
 .row {
   display: inline-block;
-  margin-right: 120px;
+  margin-right: 40px;
   vertical-align: top;
 }
 
 .riik {
-  width: 450px;
-  height: 300px;
-}
+    width: 350px;
+    height: 220px;
+  }
 
-@media screen and (min-width: 200px) {
-.riik {
-  width: 300px;
-  height: 170px;
-}
-}
-
-@media screen and (min-width: 200px) {
-.riik {
-  width: 450px;
-  height: 300px;
-}
-}
-
-@media screen and (min-width: 200px) {
-.riik {
-  width: 450px;
-  height: 300px;
-}
-
-
-}
 
 </style>

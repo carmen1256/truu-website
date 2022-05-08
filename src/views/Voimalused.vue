@@ -58,12 +58,14 @@ export default {
 <style scoped>
 body {
   font-family: "OpenSans";
+  margin-top: 40px;
+  margin-left: 60px;
+  margin-right: 40px;
 }
 
 .voimalused h1 {
   font-size: 30px;
   text-align: left;
-  margin-left: 30px;
   margin-top: 30px;
   color: white;
 }
@@ -114,6 +116,7 @@ hr {
 ul {
     border: 5px solid #E0E0E0;
     background-color: #606060;
+    margin-top: 20px;
 }
 
 @media screen and (min-width: 200px) {

@@ -59,9 +59,7 @@ export default {
 <style scoped>
 body {
   font-family: "OpenSans";
-  margin: 40px;
-  margin-left: 60px;
-  margin-right: 5px;
+  margin: 30px;
 }
 
 .praktika h1 {
@@ -108,6 +106,12 @@ a:hover {
 @media screen and (max-width: 800px) {
   ul {
     columns: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 5px;
   }
 }
 

@@ -3,7 +3,6 @@
 <h1>Kuidas kandideerida?</h1>
 <ul>
   <li>
-    <h2>Erasmus+</h2>
     <div>
     <h3>TÜ tingimused:</h3>
     <a href="https://ut.ee/et/erasmus">https://ut.ee/et/erasmus</a>
@@ -34,6 +33,7 @@
 <style scoped>
 body {
   font-family: "OpenSans";
+  margin: 40px;
 }
 
 h1 {
@@ -41,11 +41,6 @@ h1 {
   font-size: 30px;
   margin-bottom: 10px;
   margin-left: 20px;
-}
-
-h2 {
-  color: white;
-  font-size: 25px;
 }
 
 p, a {
@@ -64,7 +59,7 @@ li {
 
 h3 {
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   margin: 20px;
 }
 
@@ -83,7 +78,7 @@ div {
   border: 5px solid #E0E0E0;
   background-color: #606060;
   margin-top: 20px;
-  width: 300px;
+  width: 350px;
   height: 150px;
 }
 
@@ -124,7 +119,7 @@ div {
   border: 5px solid #E0E0E0;
   background-color: #606060;
   margin-top: 20px;
-  width: 150%;
+  width: 120%;
   height: 150px;
 }
 }

@@ -2,7 +2,7 @@
 <body>
 <div class="img">
     <!--Avalehel pilt ja tekst pildil, teksti sees on link 'SIIT'-->
-    <img class="valencia" alt="valencia" src="../assets/valencia.jpg">
+    <img class="valencia" alt="reisiblogi" src="../assets/valencia.jpg">
     <div class="tekst"><h1>REISI, ÕPI, TÖÖTA!</h1>
     Tahad minna välismaale õppima,<br> töötama või praktikale, 
       <br>kuid ei tea, millest alustada?<br>
@@ -13,13 +13,13 @@
 
 <div class="pildid">
   <div class="pilt">
-  <img class="pilt" alt="pilt" src="../assets/c1.jpg">
+  <img class="pilt" alt="reisiblogi" src="../assets/c1.jpg">
   </div>
   <div class="pilt">
-  <img class="pilt" alt="pilt" src="../assets/c2.jpg">
+  <img class="pilt" alt="reisiblogi" src="../assets/c2.jpg">
   </div>
   <div class="pilt">
-  <img class="pilt" alt="pilt" src="../assets/c3.jpg">
+  <img class="pilt" alt="reisiblogi" src="../assets/c3.jpg">
   </div>
 </div>
 </body>

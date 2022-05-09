@@ -13,13 +13,13 @@
     <a href="http://www.seiklejad.org/noorele">http://www.seiklejad.org/noorele</a>
     </div>
     <div>
-    <h3>Praktika</h3>
+    <h3>Erasmus+ praktika</h3>
     <p>Loo kasutaja ja kandideeri!</p>
     <a href="https://erasmusintern.org/traineeships">https://erasmusintern.org/traineeships</a>
     </div>
   </li>
   <li>
-    <img class="europe" alt="europe" src="../assets/europe.png">
+    <img class="europe" alt="reisiblogi" src="../assets/europe.png">
   </li>
 </ul>
 
@@ -119,8 +119,8 @@ div {
   border: 5px solid #E0E0E0;
   background-color: #606060;
   margin-top: 20px;
-  width: 120%;
-  height: 150px;
+  width: 160%;
+  height: 160px;
 }
 }
 

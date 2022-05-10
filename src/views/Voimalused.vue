@@ -111,6 +111,7 @@ hr {
 ul {
     border: 5px solid #E0E0E0;
     background-color: #606060;
+    border-radius: 5px;
     margin-top: 20px;
 }
 

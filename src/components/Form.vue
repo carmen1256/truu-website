@@ -9,7 +9,7 @@
     <input type="text" id="title" name="title" v-model="title"><br>
     <label for="ptext">Postituse tekst:</label><br>
     <textarea type="text" id="ptext" name="ptext" v-model="ptext"></textarea><br><br>
-    <button type="submit" id="submit" v-on:click="click_post();click_get()">SISESTA</button>
+    <button type="submit" id="submit" v-on:click="click_post();click_get();reset_input()">SISESTA</button>
     <ul>
       <li v-for="postitus in postitused" v-bind:key="postitus"> 
           <h2>{{postitus.posttitle}}</h2> {{postitus.posttext}}</li>
@@ -103,6 +103,13 @@ input {
 li {
     list-style: none;
     margin-bottom: 70px;
+    border: 5px solid #E0E0E0;
+    background-color: #606060;
+    border-radius: 5px;
+}
+
+ul {
+  display: block;
 }
 
 #submit {
@@ -143,12 +150,12 @@ textarea {
 
 @media screen and (min-width: 600px) {
 #title {
-    width: 50%;
+    width: 80%;
     height: 20px;
 }
 
 #ptext {
-    width: 50%;
+    width: 80%;
     height: 200px;
 }
 }

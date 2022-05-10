@@ -8,76 +8,76 @@
     <div class="row">
     <h3>BELGIA</h3>
     <img class="riik" alt="reisimine" src="../assets/belgia1.jpg">
-    <li><a href="https://www.kuleuven.be/english/kuleuven/">Belgia, Leuveni Ülikool</a></li>
+    <li><a href="https://www.kuleuven.be/english/kuleuven/">Leuveni Ülikool</a></li>
     </div>
     <div class="row">
     <h3>HISPAANIA</h3>
     <img class="riik" alt="reisimine" src="../assets/spain.jpg">
-    <li><a href="https://www.ugr.es/en/">Hispaania, Granada Ülikool</a></li>
+    <li><a href="https://www.ugr.es/en/">Granada Ülikool</a></li>
     </div>
 
     <div class="row">
     <h3>HOLLAND</h3>
     <img class="riik" alt="reisimine" src="../assets/holland.jpg">
-    <li><a href="https://www.rug.nl/">Holland, Groningeni Ülikool</a></li>
+    <li><a href="https://www.rug.nl/">Groningeni Ülikool</a></li>
     </div>
     <div class="row">
     <h3>LEEDU</h3>
     <img class="riik" alt="reisimine" src="../assets/lith.jpg">
-    <li><a href="https://www.vu.lt/en/">Leedu, Vilniuse Ülikool</a></li>
+    <li><a href="https://www.vu.lt/en/">Vilniuse Ülikool</a></li>
     </div>
 
     <div class="row">
     <h3>LÄTI</h3>
     <img class="riik" alt="reisimine" src="../assets/lati.jpg">
-    <li><a href="https://www.lu.lv/">Läti, Läti Ülikool</a></li>
+    <li><a href="https://www.lu.lv/">Läti Ülikool</a></li>
     </div>
     <div class="row">
     <h3>TŠEHHI</h3>
     <img class="riik" alt="reisimine" src="../assets/tsehhi.jpg">
-    <li><a href="http://www.cuni.cz/UKEN-1.html">Tšehhi, Karli Ülikool Prahas</a></li>
+    <li><a href="http://www.cuni.cz/UKEN-1.html">Karli Ülikool Prahas</a></li>
     </div>
 
     <div class="row">
     <h3>PRANTSUSMAA</h3>
     <img class="riik" alt="reisimine" src="../assets/france.jpg">
-    <li><a href="https://www.univ-tours.fr/">Prantsusmaa, François Rabelais' Ülikool</a></li>
-    <li><a href="https://www.univ-lyon3.fr/welcome-to-jean-moulin-lyon-3-university-1">Prantsusmaa, Jean Moulini Ülikool Lyon 3</a></li>
+    <li><a href="https://www.univ-tours.fr/">François Rabelais' Ülikool</a></li>
+    <li><a href="https://www.univ-lyon3.fr/welcome-to-jean-moulin-lyon-3-university-1">Jean Moulini Ülikool</a></li>
     </div>
     <div class="row">
     <h3>ROOTSI</h3>
     <img class="riik" alt="reisimine" src="../assets/rootsi.jpg">
-    <li><a href="http://www.gu.se/">Rootsi, Göteborgi Ülikool</a></li>
-    <li><a href="http://www.uu.se/">Rootsi, Uppsala Ülikool</a></li>
+    <li><a href="http://www.gu.se/">Göteborgi Ülikool</a></li>
+    <li><a href="http://www.uu.se/">Uppsala Ülikool</a></li>
     </div>
 
     <div class="row">
     <h3>PORTUGAL</h3>
     <img class="riik" alt="reisimine" src="../assets/portugal.jpg">
-    <li><a href="https://www.ulisboa.pt/en">Portugal, Lissaboni Ülikool</a></li>
+    <li><a href="https://www.ulisboa.pt/en">Lissaboni Ülikool</a></li>
     </div>
     
     <div class="row">
     <h3>SOOME</h3>
     <img class="riik" alt="reisimine" src="../assets/soome.jpg">
-    <li><a href="http://www.taik.fi/en/">Soome, Aalto Ülikool</a></li>
-    <li><a href="http://www.uef.fi/en/etusivu">Soome, Ida-Soome Ülikool</a></li>
-    <li><a href="http://www.jyu.fi/">Soome, Jyväskylä Ülikool</a></li>
-    <li><a href="http://www.uta.fi/">Soome, Tampere Ülikool</a></li>
-    <li><a href="http://www.utu.fi/">Soome, Turu Ülikool</a></li>
-    <li><a href="http://www.oulu.fi/yliopisto/">Soome, Oulu Ülikool</a></li>
+    <li><a href="http://www.taik.fi/en/">Aalto Ülikool</a></li>
+    <li><a href="http://www.uef.fi/en/etusivu">Ida-Soome Ülikool</a></li>
+    <li><a href="http://www.jyu.fi/">Jyväskylä Ülikool</a></li>
+    <li><a href="http://www.uta.fi/">Tampere Ülikool</a></li>
+    <li><a href="http://www.utu.fi/">Turu Ülikool</a></li>
+    <li><a href="http://www.oulu.fi/yliopisto/">Oulu Ülikool</a></li>
     </div>
 
     <div class="row">
     <h3>SAKSAMAA</h3>
     <img class="riik" alt="reisimine" src="../assets/saksa.jpg">
-    <li><a href="https://www.ugr.es/en/">Saksamaa, Greifswaldi Ülikool</a></li>
-    <li><a href="http://www.uni-goettingen.de/">Saksamaa, Göttingeni Ülikool</a></li>
-    <li><a href="http://www.uni-hamburg.de/">Saksamaa, Hamburgi Ülikool</a></li>
-    <li><a href="http://www.uni-kiel.de/">Saksamaa, Kieli Ülikool</a></li>
-    <li><a href="http://www.uni-konstanz.de/">Saksamaa, Konstanzi Ülikool</a></li>
-    <li><a href="https://www.uni-luebeck.de/en/university/university.html">Saksamaa, Lübecki Ülikool</a></li>
-    <li><a href="http://www.uni-muenster.de/">Saksamaa, Münsteri Ülikool</a></li>
+    <li><a href="https://www.ugr.es/en/">Greifswaldi Ülikool</a></li>
+    <li><a href="http://www.uni-goettingen.de/">Göttingeni Ülikool</a></li>
+    <li><a href="http://www.uni-hamburg.de/">Hamburgi Ülikool</a></li>
+    <li><a href="http://www.uni-kiel.de/">Kieli Ülikool</a></li>
+    <li><a href="http://www.uni-konstanz.de/">Konstanzi Ülikool</a></li>
+    <li><a href="https://www.uni-luebeck.de/en/university/university.html">Lübecki Ülikool</a></li>
+    <li><a href="http://www.uni-muenster.de/">Münsteri Ülikool</a></li>
     </div>
 
     
@@ -137,7 +137,7 @@ a:hover {
 
 .row {
   display: inline-block;
-  margin-right: 40px;
+  margin-right: 30px;
   vertical-align: top;
 }
 

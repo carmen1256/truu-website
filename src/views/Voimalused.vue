@@ -35,21 +35,16 @@
     </div>
 </ul>
 </div>
-<hr>
-
-<Form />
 </body>
 </template>
 
 <script>
 import Blogi from '@/components/Blogi.vue'
-import Form from '@/components/Form.vue'
-
 
 export default {
   name: 'Praktika',
   components: {
-      Blogi, Form
+      Blogi
   }
   
 }

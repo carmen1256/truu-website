@@ -8,8 +8,7 @@
     <input type="text" id="title" name="title" v-model="title"><br>
     <label for="ptext">Postituse tekst:</label><br>
     <input type="text" id="ptext" name="ptext" v-model="ptext"><br><br>
-    <button type="submit" id="submit" v-on:click="click_post">SISESTA</button>
-    <button @click="reset_input" type="submit" id="submit" v-on:click="click_get">UUENDA</button>
+    <button type="submit" id="submit" v-on:click="click_post();click_get()">SISESTA</button>
     <ul>
       <li v-for="postitus in postitused" v-bind:key="postitus"> 
           <h2>{{postitus.posttitle}}</h2> {{postitus.posttext}}</li>
@@ -20,6 +19,9 @@
 <script>
 
 export default {
+  created () {
+    this.click_get()
+  },
   data() {
     return {
       title: '',
@@ -62,6 +64,7 @@ export default {
     }
   }
 };
+
 </script>
 
 <style scoped>

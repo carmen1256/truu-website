@@ -22,17 +22,20 @@
   <img class="pilt" alt="reisiblogi" src="../assets/c3.jpg">
   </div>
 </div>
+<hr>
+<Form />
 </body>
 </template>
 
 <!--Päise importimine-->
 <script>
 import Header from '@/components/Header.vue'
+import Form from '@/components/Form.vue'
 
 export default {
   name: 'Avaleht',
   components: {
-    Header
+    Header, Form
   }
 }
 
@@ -75,6 +78,10 @@ body {
 
 .pilt:hover {
   filter: saturate(1.15) brightness(1.1);
+}
+
+hr {
+  margin-top: 30px;
 }
 
 

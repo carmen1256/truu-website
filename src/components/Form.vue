@@ -2,19 +2,22 @@
 <!-- <input type="submit" value="INSERT" v-on:click="click_post"> -->
 
 <template>
+<body>
   <div>
     <h3>Jaga oma kogemust</h3>
     <label for="title">Pealkiri:</label><br>
     <input type="text" id="title" name="title" v-model="title"><br>
     <label for="ptext">Postituse tekst:</label><br>
-    <input type="text" id="ptext" name="ptext" v-model="ptext"><br><br>
+    <textarea type="text" id="ptext" name="ptext" v-model="ptext"></textarea><br><br>
     <button type="submit" id="submit" v-on:click="click_post();click_get()">SISESTA</button>
     <ul>
       <li v-for="postitus in postitused" v-bind:key="postitus"> 
           <h2>{{postitus.posttitle}}</h2> {{postitus.posttext}}</li>
     </ul>
   </div>
+</body>
 </template>
+
 
 <script>
 
@@ -68,6 +71,10 @@ export default {
 </script>
 
 <style scoped>
+body {
+  font-family: "OpenSans";
+}
+
 div {
   color: white;
   padding: 10px 10px;

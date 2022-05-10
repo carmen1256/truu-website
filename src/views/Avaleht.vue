@@ -1,7 +1,6 @@
 <template>
 <body>
 <div class="img">
-    <!--Avalehel pilt ja tekst pildil, teksti sees on link 'SIIT'-->
     <img class="valencia" alt="reisiblogi" src="../assets/valencia.jpg">
     <div class="tekst"><h1>REISI, ÕPI, TÖÖTA!</h1>
     Tahad minna välismaale õppima,<br> töötama või praktikale, 
@@ -27,7 +26,6 @@
 </body>
 </template>
 
-<!--Päise importimine-->
 <script>
 import Header from '@/components/Header.vue'
 import Form from '@/components/Form.vue'
@@ -41,7 +39,6 @@ export default {
 
 </script>
 
-<!--Pildi ja teksti kujundus erineva ekraani suuruse korral-->
 <style scoped>
 body {
   font-family: "OpenSans";

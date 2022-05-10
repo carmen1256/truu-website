@@ -1,6 +1,3 @@
-<!-- <input type="text" id="title" name="title" v-model="title"><br> -->
-<!-- <input type="submit" value="INSERT" v-on:click="click_post"> -->
-
 <template>
 <body>
   <div>

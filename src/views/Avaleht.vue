@@ -53,6 +53,7 @@ body {
   height: 600px;
   object-fit: cover;
 }
+
 .img {
   background-color: black;
   position: relative;
@@ -82,6 +83,14 @@ body {
 
 hr {
   margin-top: 30px;
+}
+
+h1 {
+  text-shadow: 3px 3px 10px black;
+}
+
+.tekst {
+  text-shadow: 3px 3px 5px black;
 }
 
 

@@ -63,6 +63,7 @@ body {
   text-align: left;
   margin-top: 30px;
   color: white;
+  text-shadow: 3px 3px 5px black;
 }
 
 h2 {

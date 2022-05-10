@@ -41,6 +41,7 @@ h1 {
   font-size: 30px;
   margin-bottom: 10px;
   margin-left: 20px;
+  text-shadow: 3px 3px 5px black;
 }
 
 p, a {

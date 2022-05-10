@@ -102,6 +102,7 @@ h1 {
   margin-left: 30px;
   margin-top: 30px;
   color: white;
+  text-shadow: 3px 3px 5px black;
 }
 
 h2 {
@@ -110,6 +111,7 @@ h2 {
   margin-left: 30px;
   margin-top: 40px;
   color: white;
+  text-shadow: 2px 2px 5px black;
 }
 
 h3 {
@@ -133,6 +135,7 @@ a {
 
 a:hover {
   color: #66fcf1;
+  text-shadow: 2px 2px 5px black;
 }
 
 .row {

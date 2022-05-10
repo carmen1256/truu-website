@@ -83,6 +83,7 @@ div {
 
 h3 {
     font-size: 30px;
+    text-shadow: 2px 2px 5px black;
 }
 
 input {
@@ -117,6 +118,7 @@ ul {
     width: 100px;
     height: 40px;
     margin-bottom: 40px;
+    box-shadow: 2px 2px 5px black;
 }
 
 button:hover {

@@ -33,6 +33,8 @@ nav a {
     display: block;
     padding: 5px 10px;
     height: 20px;
+    text-shadow: 2px 2px 5px black;
+    letter-spacing: 2px;
 }
 
 nav a:hover, .router-link-active {
@@ -51,6 +53,7 @@ hr {
 @media screen and (min-width: 900px) {
   nav a {
     display: inline;
+    padding-right: 30px;
   }
 }
 

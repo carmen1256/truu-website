@@ -67,6 +67,7 @@ body {
   font-size: 30px;
   text-align: left;
   color: white;
+  text-shadow: 3px 3px 5px black;
 }
 
 ul {

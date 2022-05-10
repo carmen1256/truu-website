@@ -87,6 +87,7 @@ h3 {
 
 input {
     margin-bottom: 30px;
+    font-family: "OpenSans";
 }
 
 #title {
@@ -116,6 +117,10 @@ button:hover {
     cursor: pointer;
     border: 1px solid grey;
     border-radius: 2px;
+}
+
+textarea {
+  font-family: "OpenSans";
 }
 
 @media screen and (min-width: 200px) {
